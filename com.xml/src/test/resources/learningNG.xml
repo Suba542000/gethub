@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Project">
+  <test  name="KtigStaticWebsiteLogin">
+    <classes>
+      <class name="com.NGxml.Test_Class1">
+      <methods>
+      <include name="launch"/>
+      <include name="contact"/>
+      </methods>
+      </class>
+    </classes>
+  </test> 
+  <test  name="KtigStaticWebsitelaunch">
+    <classes>
+      <class name="com.NGxml.Test_Class2">
+      <methods>
+      <include name="imagePresent"/>
+      <include name="KTIGWebMousehover"/>
+      </methods>
+      </class>
+    </classes>
+    
+  </test> 
+   <test  name="KtigStaticWebsiteImage">
+    <classes>
+      <class name="com.NGxml.Test_Class3">
+      <methods>
+      <include name="imagePresentHome"/>
+      </methods>
+      </class>
+    </classes>
+  </test> 
+</suite> 
